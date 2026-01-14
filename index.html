@@ -12,31 +12,33 @@
 </head>
 <body>
   <header class="header">
-    <h1>Pakoli Online Game</h1>
+    <h1> Online Game</h1>
     <p>Bet time: 6:00 AM to 8:00 PM • Result: 10:00 PM (YouTube Live)</p>
   </header>
 
   <!-- Today Symbols -->
-  <section class="section">
-    <h2>Today's Symbols</h2>
-    <div class="symbols">
-      <!-- 10 static symbols (change names as you like) -->
-      <div class="symbol-card">Kite</div>
-      <div class="symbol-card">Star</div>
-      <div class="symbol-card">Moon</div>
-      <div class="symbol-card">Sun</div>
-      <div class="symbol-card">Fish</div>
-      <div class="symbol-card">Bird</div>
-      <div class="symbol-card">Horse</div>
-      <div class="symbol-card">Tree</div>
-      <div class="symbol-card">Flower</div>
-      <div class="symbol-card">Diamond</div>
-    </div>
-  </section>
+ <section class="section">
+  <h2>Today's Symbols</h2>
+  <div class="symbols">
+    <div class="symbol-card symbol-umbrella">Umbrela</div>
+    <div class="symbol-card symbol-ball">Ball</div>
+    <div class="symbol-card symbol-sun">Sun</div>
+    <div class="symbol-card symbol-lamp">Lamp</div>
+    <div class="symbol-card symbol-cow">Cow</div>
+    <div class="symbol-card symbol-bucket">Bucket</div>
+    <div class="symbol-card symbol-rabbit">Rabbit</div>
+    <div class="symbol-card symbol-pigeon">Pigeon</div>
+    <div class="symbol-card symbol-butterfly">Butterfly</div>
+    <div class="symbol-card symbol-rose">Rose</div>
+    <div class="symbol-card symbol-embottle">Embottle</div>
+    <div class="symbol-card symbol-kite">Kite</div>
+  </div>
+</section>
+
 
   <!-- Bet Form -->
   <section class="section">
-    <h2>Place Your Bet</h2>
+    <h2>Place Your </h2>
     <p id="bet-status" class="info"></p>
 
     <form id="bet-form">
@@ -59,8 +61,11 @@
         <select id="amount" required>
           <option value="">Select amount</option>
           <option value="10">₹10</option>
+          <option value="100">₹20</option>
           <option value="50">₹50</option>
           <option value="100">₹100</option>
+          <option value="100">₹200</option>
+          <option value="100">₹500</option>
         </select>
       </div>
 
@@ -82,7 +87,7 @@
       </div>
 
       <!-- In future: replace this with Razorpay Pay Now -->
-      <button type="submit" id="pay-btn">Pay & Submit Bet</button>
+      <button type="submit" id="pay-btn">Pay & Submit</button>
     </form>
   </section>
 
