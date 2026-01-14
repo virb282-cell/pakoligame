@@ -16,11 +16,11 @@ const payBtn = document.getElementById("pay-btn");
 
 // Status text
 if (!isBettingOpen()) {
-  betStatusEl.textContent = "Betting closed. You can bet between 6:00 AM and 8:00 PM.";
+  betStatusEl.textContent = "closed. You can .. between 6:00 AM and 8:00 PM.";
   betStatusEl.style.color = "#f97316";
   payBtn.disabled = true;
 } else {
-  betStatusEl.textContent = "Betting is open. Place your bet now.";
+  betStatusEl.textContent = "is open. Place your ... now.";
   betStatusEl.style.color = "#22c55e";
 }
 
